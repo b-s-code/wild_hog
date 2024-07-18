@@ -41,6 +41,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(582, 20);
             textBox1.TabIndex = 0;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
@@ -50,7 +51,6 @@
             label1.Size = new Size(52, 15);
             label1.TabIndex = 1;
             label1.Text = "File path";
-            label1.Click += label1_Click;
             // 
             // button1
             // 
@@ -60,7 +60,8 @@
             button1.TabIndex = 2;
             button1.Text = "Hog";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.MouseDown += button1_MouseDown;
+            button1.MouseUp += button1_MouseUp;
             // 
             // checkBox1
             // 
@@ -85,7 +86,6 @@
             Name = "Form1";
             ShowIcon = false;
             Text = "Wild Hog";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
