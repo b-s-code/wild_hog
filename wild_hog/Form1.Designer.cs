@@ -28,12 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            textBox1 = new TextBox();
+            label1 = new Label();
+            button1 = new Button();
+            checkBox1 = new CheckBox();
+            SuspendLayout();
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Cascadia Code", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(12, 40);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(582, 20);
+            textBox1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 22);
+            label1.Name = "label1";
+            label1.Size = new Size(52, 15);
+            label1.TabIndex = 1;
+            label1.Text = "File path";
+            label1.Click += label1_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(316, 66);
+            button1.Name = "button1";
+            button1.Size = new Size(278, 220);
+            button1.TabIndex = 2;
+            button1.Text = "Hog";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(123, 155);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(73, 19);
+            checkBox1.TabIndex = 4;
+            checkBox1.Text = "Autohog";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(606, 293);
+            Controls.Add(checkBox1);
+            Controls.Add(button1);
+            Controls.Add(label1);
+            Controls.Add(textBox1);
+            Name = "Form1";
+            ShowIcon = false;
+            Text = "Wild Hog";
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox textBox1;
+        private Label label1;
+        private Button button1;
+        private CheckBox checkBox1;
     }
 }
