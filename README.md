@@ -21,3 +21,7 @@ Enter a valid, absolute Windows file path, with no quotes.
 Press the Hog button to open the specified file for exclusive access momentarily (while the button is held).
 
 Or use the Autohog checkbox to keep the specified file open with exclusive access.
+
+## Bugs
+
+Wild Hog may not gracefully handle file paths containing invalid characters.
