@@ -1,5 +1,3 @@
-using System.IO;
-
 namespace wild_hog
 {
     internal static class Program
