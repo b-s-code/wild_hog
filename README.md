@@ -4,7 +4,7 @@ Wild Hog takes out exclusive access on a file in Windows.
 
 ![screenshot](hero_shot.png)
 
-This can be useful to determine other applications behave when a file they try to open is being accessed exclusively by something else.
+This can be useful to determine how other applications behave when a file they try to open is being accessed exclusively by something else.
 
 ## Installation
 
