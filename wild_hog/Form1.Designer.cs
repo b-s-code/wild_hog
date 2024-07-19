@@ -37,7 +37,7 @@
             // textBox1
             // 
             textBox1.Font = new Font("Cascadia Code", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(12, 40);
+            textBox1.Location = new Point(12, 24);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(582, 20);
             textBox1.TabIndex = 0;
@@ -46,7 +46,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 22);
+            label1.Location = new Point(12, 6);
             label1.Name = "label1";
             label1.Size = new Size(52, 15);
             label1.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(316, 66);
+            button1.Location = new Point(316, 61);
             button1.Name = "button1";
             button1.Size = new Size(278, 220);
             button1.TabIndex = 2;
@@ -66,7 +66,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(123, 155);
+            checkBox1.Location = new Point(123, 149);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(73, 19);
             checkBox1.TabIndex = 4;
@@ -78,7 +78,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(606, 293);
+            ClientSize = new Size(606, 292);
             Controls.Add(checkBox1);
             Controls.Add(button1);
             Controls.Add(label1);
